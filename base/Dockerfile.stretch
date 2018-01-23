@@ -24,16 +24,18 @@ RUN apt-get update && \
   INSTALL_PKGS="autoconf \
   automake \
   bzip2 \
-  gcc \
-  gdb \
   git \
   lsof \
   make \
   openssl \
   patch \
   unzip \
+  wget \
   build-essential \
   cmake \
-  wget " && \
+  clang \
+  git \
+  gdb \
+  mlocate" && \
   apt-get --no-install-recommends --no-install-suggests install -y $INSTALL_PKGS && \
   apt-get purge -y --auto-remove
