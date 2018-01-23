@@ -3,6 +3,8 @@ OpenShift base images
 
 This repository contains Dockerfiles which serve as base images for various OpenShift images.
 
+Plus some bonus debian stuff cause I need to sue debian right now, but really like s2i
+
 Versions
 ---------------------------------
 s2i image versions currently provided are:
